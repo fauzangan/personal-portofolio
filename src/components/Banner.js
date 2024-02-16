@@ -59,7 +59,7 @@ export const Banner = () => {
                   <span className="wrap"> I'm {text}</span>
                 </h1>
                 <p>Freshgraduate S1 Teknik Komputer Universitas Diponegoro</p>
-                <button onClick={() => window.open("https://wa.me/+6281291289944", '_blank', 'noopener, noreferrer')}>
+                <button onClick={() => window.open("https://drive.google.com/file/d/1EA6StoBbbRvsWiNzws1K0dBmFRVc_1RJ/view?usp=sharing", '_blank', 'noopener, noreferrer')}>
                   Download my Resume <ArrowRightCircle size={25}></ArrowRightCircle>
                 </button>
               </div>

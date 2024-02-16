@@ -36,8 +36,8 @@ export const Certificates = () => {
           <Container>
             <Row>
               <Col>
-                <h2>Sertifikasi dan Pelatihan</h2>
-                <p>Lorem Ipsum</p>
+                <h2>Certificates and Training</h2>
+                <p></p>
                 <Row>
                 {certificates.map((certificate, index) => {
                     return <ProjectCard key={index} {...certificate} />;
