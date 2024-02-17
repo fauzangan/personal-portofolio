@@ -5,6 +5,8 @@ import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
 import meter3 from "../assets/img/meter3.svg";
 import colorSharp1 from "../assets/img/color-sharp.png";
+import 'animate.css';
+
 
 
 export const Skills = () => {
@@ -29,6 +31,7 @@ export const Skills = () => {
 
     return (
         <section className="skill" id="skills">
+        <div className="animate__animated animate__fadeInUpBig animate__slower">
         <div className="container">
             <div className="row">
                 <div className="col-12">
@@ -56,6 +59,7 @@ export const Skills = () => {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <img className="background-image-left" src={colorSharp1} alt="Image" />
     </section>

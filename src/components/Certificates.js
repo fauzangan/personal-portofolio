@@ -6,6 +6,7 @@ import certificateIntroToFullStact from "../assets/img/Sertifikat-intro-to-fulls
 import certificateDataEngineer from "../assets/img/sertifikat-data-engineer.png";
 import certificateCisco1 from "../assets/img/sertifikat-cisco-1.png";
 import certificateCisco2 from "../assets/img/sertifikat-cisco-2.png";
+import certificateCisco3 from "../assets/img/sertifikat-cisco-3.png";
 
 export const Certificates = () => {
     const certificates = [
@@ -28,6 +29,11 @@ export const Certificates = () => {
           title: "CCNA:Introduction to Networks",
           description: "Cisco • Juli 2021",
           imgUrl: certificateCisco2,
+        },
+        {
+          title: "CCNA:DevNet Associate",
+          description: "Cisco • Desember 2022",
+          imgUrl: certificateCisco3,
         },
       ];
     

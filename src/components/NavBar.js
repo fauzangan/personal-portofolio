@@ -57,7 +57,7 @@ export const NavBar = () => {
               </a>
             </div>
             <div className="animate__animated animate__fadeInRight animate__delay-3s">
-                <button className="vvd" onClick={() => window.open("https://wa.me/+6281291289944", '_blank', 'noopener, noreferrer')}>
+                <button className="vvd" onClick={() => window.open("https://api.whatsapp.com/send/?phone=%2B6281291289944&text&type=phone_number&app_absent=0", '_blank', 'noopener, noreferrer')}>
                     <span>Let's Connect</span>
                 </button>
             </div>
