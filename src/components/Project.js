@@ -8,9 +8,22 @@ import deskbookingAppImg from "../assets/img/deskbooking-app-portofolio.png";
 import tokohpAppImg from "../assets/img/tokohp-app-portofolio.png";
 import elearningAppImg from "../assets/img/e-learning-portofolio.png";
 import personalPortofolioImg from "../assets/img/personal-portofolio.png";
+import kerjainAja from "../assets/img/kerjain-aja.png"
+import quranCalculator from "../assets/img/qur'an-and-calculator.png"
+import rentFox from '../assets/img/rent-fox.png'
 
 export const Project = () => {
   const projects = [
+    {
+      title: "Kerjain-Aja",
+      description: "Membuat Aplikasi platform marketplace yang menghubungkan penyedia jasa dengan pelanggan sesuai permintaan spesifik.",
+      imgUrl: kerjainAja,
+    },
+    {
+      title: "Rent-fox",
+      description: "Web App peminjaman alat scaffolding dan alat berat.",
+      imgUrl: rentFox,
+    },
     {
       title: "Proyek TA Bank Sampah",
       description: "Membuat Aplikasi Bank Sampah menggunakan Kerangka Kerja Laravel dengan mengintegrasikan modul IoTberupa timbangan Loadcell dan NodeMCU ESP8266 menggunakan protokol HTTP.",
@@ -25,6 +38,11 @@ export const Project = () => {
       title: "Website Toko Handphone",
       description: "Membuat Toko berbasis web untuk menjual Smartphone menggunakan Laravel dan Bootstrap",
       imgUrl: tokohpAppImg,
+    },
+    {
+      title: "Qur'an and Calculator Generator",
+      description: "Web generator surah Al-Qur'an dan calculator menggunakan React.js.",
+      imgUrl: quranCalculator,
     },
     {
       title: "Deskbooking App",

@@ -58,8 +58,8 @@ export const Banner = () => {
                   {"Hi I'm Fauzan Zaman "}
                   <span className="wrap"> I'm {text}</span>
                 </h1>
-                <p>Freshgraduate S1 Teknik Komputer Universitas Diponegoro</p>
-                <button onClick={() => window.open("https://drive.google.com/file/d/1t1frqVmmnXyLrLsQzVsmZgce5daS_mpA/view?usp=sharing", '_blank', 'noopener, noreferrer')}>
+                <p>Computer Engineering graduate with proven expertise in developing scalable applications using Java Spring Boot, PHP Laravel, Golang, and React.js. Skilled in designing efficient backend architectures, API integration, and database optimization. Seeking opportunities in software development to deliver innovative technology solutions</p>
+                <button onClick={() => window.open("https://drive.google.com/file/d/1G3HLE5VmDAak4mUA9A_DZTSdi1t_12zh/view?usp=sharing", '_blank', 'noopener, noreferrer')}>
                   Download my Resume <ArrowRightCircle size={25}></ArrowRightCircle>
                 </button>
               </div>
